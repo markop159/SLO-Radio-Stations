@@ -1,19 +1,103 @@
 {
-    "main": [],
-    "nacional": [],
-    "komercial": [],
-    "neprofitni": [],
-    "regional": [],
-    "other": [
-      "pomurska": [],
-      "podravska": [],
-      "koroska": [],
-      "savinjska": [],
-      "jugovzhodna": [],
-      "osrednjeslovenska": [],
-      "gorenjska": [],
-      "primorkso-notranjska": [],
-      "goriska": []
-      "obalno-kraska": []
-    ]
+    "main": [
+		{
+			"title": "Nacionalni"
+		},
+		{
+			"title": "Komercialni"
+		},
+		{
+			"title": "Neprofitni"
+		},
+		{
+			"title": "Regionalni"
+		},
+		{
+			"title": "Ostali"
+		}
+	],
+    "Nacionalni": [],
+    "Komercialni": [
+		{
+			"title": "Radio Capris",
+			"folder": "1",
+			"image": "http://www.radiocapris.si/data/images/onair/logo.png",
+			"sub": [
+				{
+				"title": "Capris live",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/live.png",
+				"stream": "http://stream04.exit.si:8000/live.m3u"
+				},
+				{
+				"title": "Capris 90",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/90.png",
+				"stream": "http://stream04.exit.si:8000/90.m3u"
+				},
+				{
+				"title": "Capris Dalmacija",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/dalmacija.png",
+				"stream": "http://stream04.exit.si:8000/DALMACIJA.m3u"
+				},
+				{
+				"title": "Capris EXYU",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/exyu.png",
+				"stream": "http://stream04.exit.si:8000/EXYU.m3u"
+				},
+				{
+				"title": "Capris HITS",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/hits.png",
+				"stream": "http://stream04.exit.si:8000/HITS.m3u"
+				},
+				{
+				"title": "Capris ITA",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/ita.png",
+				"stream": "http://stream04.exit.si:8000/ITA.m3u"
+				},
+				{
+				"title": "Capris Klasik",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/klasik.png",
+				"stream": "http://stream04.exit.si:8000/KLASIK.m3u"
+				},
+				{
+				"title": "Capris Poletje",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/poletje.png",
+				"stream": "http://stream04.exit.si:8000/POLETJE.m3u"
+				},
+				{
+				"title": "Capris Rock",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/rock.png",
+				"stream": "http://stream04.exit.si:8000/ROCK.m3u"
+				},
+				{
+				"title": "Capris Slo",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/slo.png",
+				"stream": "http://stream04.exit.si:8000/SLO.m3u"
+				},
+				{
+				"title": "Capris Supernova",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/live.png",
+				"stream": "http://stream04.exit.si:8000/SUPERNOVA.m3u"
+				},
+				{
+				"title": "Capris XMAS",
+				"image": "http://www.radiocapris.si/data/albums/custom/streams/xmas.png",
+				"stream": "http://stream04.exit.si:8000/XMAS.m3u"
+				}
+			]
+		}
+	],
+    "Neprofitni": [],
+    "Regionalni": [],
+    "Ostali": {
+		"pomurska": [],
+		"podravska": [],
+		"koroska": [],
+		"savinjska": [],
+		"jugovzhodna": [],
+		"osrednjeslovenska": [],
+		"gorenjska": [],
+		"primorkso-notranjska": [],
+		"goriska": [],
+		"obalno-kraska": []
+    }
 }
