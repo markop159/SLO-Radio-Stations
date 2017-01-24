@@ -84,6 +84,23 @@
 				"stream": "http://stream04.exit.si:8000/XMAS.m3u"
 				}
 			]
+		},
+				{
+			"title": "Radio 1",
+			"folder": "1",
+			"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+			"sub": [
+				{
+				"title": "Radio 1",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1.m3u"
+				},
+				{
+				"title": "Radio 1",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1.m3u"
+				}
+			]
 		}
 	],
     "Neprofitni": [],
