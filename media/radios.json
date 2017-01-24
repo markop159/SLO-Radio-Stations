@@ -1,19 +1,19 @@
 {
-    'main': [],
-    'nacional': [],
-    'komercial': [],
-    'neprofitni': [],
-    'regional': [],
-    'other': [
-      'pomurska': [],
-      'podravska': [],
-      'koroska': [],
-      'savinjska': [],
-      'jugovzhodna': [],
-      'osrednjeslovenska': [],
-      'gorenjska': [],
-      'primorkso-notranjska': [],
-      'goriska': []
-      'obalno-kraska': []
+    "main": [],
+    "nacional": [],
+    "komercial": [],
+    "neprofitni": [],
+    "regional": [],
+    "other": [
+      "pomurska": [],
+      "podravska": [],
+      "koroska": [],
+      "savinjska": [],
+      "jugovzhodna": [],
+      "osrednjeslovenska": [],
+      "gorenjska": [],
+      "primorkso-notranjska": [],
+      "goriska": []
+      "obalno-kraska": []
     ]
 }
