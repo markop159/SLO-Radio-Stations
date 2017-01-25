@@ -1,0 +1,23 @@
+<?xml version="2.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.SloRadio" name="SLO Radio Stations" version="0.0.1" provider-name="Markop159">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.audio">
+		<summary lang="en">Listen to Slovenian Radio Stations</summary>
+		<summary lang="sl">Poslušaj Slovenske Radio Postaje</summary>
+		<description lang="en"></description>
+		<description lang="sl"></description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>WTFPL, Version 2, December 2004</license>
+		<forum></forum>
+		<website></website>
+		<email></email>
+		<source></source>
+	</extension>
+</addon>
