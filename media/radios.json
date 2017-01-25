@@ -1,28 +1,85 @@
 {
-    "main": [
-		{
-			"title": "Nacionalni"
-		},
-		{
-			"title": "Komercialni"
-		},
-		{
-			"title": "Neprofitni"
-		},
-		{
-			"title": "Regionalni"
-		},
-		{
-			"title": "Ostali"
-		}
-	],
-    "Nacionalni": [],
-    "Komercialni": [
-		{
-			"title": "Radio Capris",
-			"folder": "1",
-			"image": "http://www.radiocapris.si/data/images/onair/logo.png",
-			"sub": [
+  "main": [
+    {
+      "title": "Nacionalni"
+    },
+    {
+      "title": "Komercialni"
+    },
+    {
+      "title": "Neprofitni"
+    }
+  ],
+  "Nacionalni": [
+    {
+      "title": "Radio Prvi",
+      "image": "http://img.rtvslo.si/_up/ava/archive2/Content/channel_logos/RA1_thumb.jpg",
+      "stream": "http://mp3.rtvslo.si/ra1.m3u"
+    },
+    {
+      "title": "VAL 202",
+      "image": "http://img.rtvslo.si/_up/ava/archive2/Content/channel_logos/VAL202_thumb.jpg",
+      "stream": "http://mp3.rtvslo.si/val202.m3u"
+    },
+    {
+      "title": "VAL 202 Šport",
+      "image": "http://img.rtvslo.si/_up/ava/archive2/Content/channel_logos/SPORTVAL202_thumb.jpg",
+      "stream": "http://mp3.rtvslo.si/sportval202.m3u"
+    },
+    {
+      "title": "ARS",
+      "image": "http://img.rtvslo.si/_up/ava/archive2/Content/channel_logos/ARS_thumb.jpg",
+      "stream": "http://mp3.rtvslo.si/ars.m3u"
+    },
+    {
+      "title": "Radio Koper",
+      "image": "http://img.rtvslo.si/_up/ava/archive2/Content/channel_logos/RAKP_thumb.jpg",
+      "stream": "http://mp3.rtvslo.si/rakp.m3u"
+    },
+    {
+      "title": "Radio SI",
+      "image": "http://img.rtvslo.si/_up/ava/archive2/Content/channel_logos/RSI_thumb.jpg",
+      "stream": "http://mp3.rtvslo.si/rsi.m3u"
+    },
+    {
+      "title": "Radio Maribor",
+      "image": "http://img.rtvslo.si/_up/ava/archive2/Content/channel_logos/RAMB_thumb.jpg",
+      "stream": "http://mp3.rtvslo.si/rmb.m3u"
+    },
+    {
+      "title": "Radio Capodistria",
+      "image": "http://img.rtvslo.si/_up/ava/archive2/Content/channel_logos/CAPO_thumb.jpg",
+      "stream": "http://mp3.rtvslo.si/capo.m3u"
+    },
+    {
+      "title": "Radio MMR",
+      "image": "http://img.rtvslo.si/_up/ava/archive2/Content/channel_logos/MMR_thumb.jpg",
+      "stream": "http://mp3.rtvslo.si/mmr.m3u"
+    }
+  ],
+  "Komercialni": [
+      {
+  		    "title": "Radio Antena",
+  		    "folder": "1",
+  		    "image": "http://www.radioantena.si/img/header/logo3.png",
+  		    "sub": [
+  			{
+  			"title": "Radio Antena",
+  			"image": "http://www.radioantena.si/img/header/logo3.png",
+  			"stream": "http://live.radio1.si/Antena.m3u"
+        },
+        {
+  			"title": "Radio Antena Štajerska",
+  			"image": "http://antenastajerska.si/img/logo.png?4",
+  			"stream": "http://live.radio1.si/Antena-Stajerska.m3u "
+        }
+  		]
+      },
+      {
+          "title": "Radio Capris",
+          "folder": "1",
+          "image": "http://www.radiocapris.si/data/images/onair/logo.png",
+          "sub": [
 				{
 				"title": "Capris live",
 				"image": "http://www.radiocapris.si/data/albums/custom/streams/live.png",
@@ -84,37 +141,147 @@
 				"stream": "http://stream04.exit.si:8000/XMAS.m3u"
 				}
 			]
-		},
-				{
-			"title": "Radio 1",
-			"folder": "1",
-			"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
-			"sub": [
+		  },
+		  {
+        "title": "Radio 1",
+  			"folder": "1",
+  			"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+  			"sub": [
 				{
 				"title": "Radio 1",
 				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
 				"stream": "http://live.radio1.si/Radio1.m3u"
 				},
 				{
-				"title": "Radio 1",
+				"title": "Radio 1 Bela Krajina",
 				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
-				"stream": "http://live.radio1.si/Radio1.m3u"
+				"stream": "http://live.radio1.si/Radio1BK.m3u"
+				},
+				{
+				"title": "Radio 1 Celje",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1CE.m3u"
+				},
+				{
+				"title": "Radio 1 Gorenjska",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1GOR.m3u"
+				},
+				{
+				"title": "Radio 1 HQ",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1HQ.m3u"
+				},
+				{
+				"title": "Radio 1 Koroška",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1KOR.m3u"
+				},
+				{
+				"title": "Radio 1 Litija",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1LI.m3u"
+				},
+				{
+				"title": "Radio 1 Štajerska",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1MB.m3u"
+				},
+				{
+				"title": "Radio 1 Dolenjska",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1NM.m3u"
+				},
+				{
+				"title": "Radio 1 Obala",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1PO.m3u"
+				},
+				{
+				"title": "Radio 1 Prekmurje",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1PR.m3u"
+				},
+				{
+				"title": "Radio 1 Primorska",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1PRI.m3u"
+				},
+				{
+				"title": "Radio 1 Ptuj",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1PT.m3u"
+				},
+				{
+				"title": "Radio 1 Ribnica",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1RIB.m3u"
+				},
+				{
+				"title": "Radio 1 Velenje",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1VE.m3u"
+				},
+				{
+				"title": "Radio 1 Vrhnika",
+				"image": "https://upload.wikimedia.org/wikipedia/sl/8/83/Radio1_logo.jpg",
+				"stream": "http://live.radio1.si/Radio1VR.m3u"
 				}
 			]
-		}
-	],
-    "Neprofitni": [],
-    "Regionalni": [],
-    "Ostali": {
-		"pomurska": [],
-		"podravska": [],
-		"koroska": [],
-		"savinjska": [],
-		"jugovzhodna": [],
-		"osrednjeslovenska": [],
-		"gorenjska": [],
-		"primorkso-notranjska": [],
-		"goriska": [],
-		"obalno-kraska": []
+  		},
+  		{
+  			"title": "Radio Rock",
+  			"folder": "1",
+  			"image": "",
+  			"sub": [
+				{
+				"title": "Radio Rock Celje",
+				"image": "http://rock-celje.si/Img/logorockcelje.png",
+				"stream": "http://live.radio1.si/RockCE.m3u"
+        },
+        {
+				"title": "Radio Rock Maribor",
+				"image": "http://rockmaribor.si/Img/logorockmb.png",
+				"stream": "http://live.radio1.si/RockMB.m3u "
+        }
+			]
+  		},
+      {
+        "title": "Radio 2",
+        "image": "http://radio2.si/Img/logoPink160x62.png",
+        "stream": "http://live.radio1.si/Radio2.m3u"
+      },
+      {
+        "title": "Radio Robin",
+        "image": "http://robin.si/templates/robin/images/radio-robin-logo.png",
+        "stream": "http://live.radio1.si/Robin.m3u"
+      },
+      {
+        "title": "Radio Triglav",
+        "image": "http://radiotriglav.si/Img/RadioTriglavLogo200x66.png",
+        "stream": "http://live.radio1.si/Triglav.m3u"
+      },
+      {
+        "title": "Radio S",
+        "image": "http://radios.si/Img/logo.png",
+        "stream": "http://live.radio1.si/radios.m3u"
+      },
+      {
+        "title": "Radio BOB",
+        "image": "http://radioeuropa.si/Img/LogotipRadioBOB1.png",
+        "stream": "http://live.radio1.si/Europa05.m3u"
+      },
+      {
+        "title": "Radio Kranj",
+        "image": "http://radio-kranj.si/Img/RadioKranjLogoLighter165x66.png",
+        "stream": "http://live.radio1.si/Kranj.m3u"
+      }
+  	],
+  "Neprofitni": [
+    {
+      "title": "Radio Ognjišče",
+      "image": "http://radio.ognjisce.si/get_img?NrArticle=264&NrImage=1",
+      "stream": "http://radio.ognjisce.si/ognjisce/iradio/ognjisce40.m3u"
     }
+  ]
 }
