@@ -1,7 +1,6 @@
 import sys, os
-import urllib, urllib2, urlparse, json
-import xbmc, xbmcgui, xbmcplugin, xbmcaddon
-import re
+import urllib, urlparse, json
+import xbmc, xbmcplugin, xbmcaddon
 
 from SloRadio.logging import log, LOGLEVEL, log_error
 

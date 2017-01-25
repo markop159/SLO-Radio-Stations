@@ -1,7 +1,6 @@
 import sys, os
-import urllib, urllib2, urlparse, json
+import urllib, urlparse
 import xbmcgui, xbmcplugin, xbmcaddon
-import re
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'resources', 'lib'))
 __addon__ = xbmcaddon.Addon()
