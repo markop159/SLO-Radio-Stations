@@ -242,7 +242,12 @@
         {
 				"title": "Radio Rock Maribor",
 				"image": "http://rockmaribor.si/Img/logorockmb.png",
-				"stream": "http://live.radio1.si/RockMB.m3u "
+				"stream": "http://live.radio1.si/RockMB.m3u"
+      },
+        {
+				"title": "Radio Rock Ljubljan",
+				"image": "http://rockradio.si/Public/assets/dist/1486812949460/img/logo.png",
+				"stream": "http://stream.rockradio.si:9034/;stream/1"
         }
 			]
   		},
